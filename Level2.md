@@ -1,6 +1,5 @@
 [URL](http://natas2.natas.labs.overthewire.org) <br>
 username: natas2 <br>
-password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7 <br>
 
 Although the hint stated that there is nothing on the website, I will still inspect the website since no further clue is stated. <br>
 ![Level2.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2.png) <br>
