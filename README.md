@@ -4,5 +4,6 @@
 ### Thanks for the [community](https://overthewire.org/information/staff.html) for maintaining and creating such an amazing platform for us to learn! <br>
 ------
 
-This repository is created to record how I solve the overthewire wargame for my personal learning purpose. Feel free to interchange any idea/ thought!
+This repository is created to record how I solve the overthewire wargame for my personal learning purpose. 
+Feel free to interchange any idea/ thought!
 
