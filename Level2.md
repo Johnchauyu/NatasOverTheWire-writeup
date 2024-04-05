@@ -8,7 +8,7 @@ Although the hint stated that there is nothing on the website, I will still insp
 Found a file path of an image in the HTML code <br>
 ![Level2_path.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2_path.png) <br>
 
-Found that I can access to that folder <br>
+Found that I have access to that folder <br>
 ![Level2_folder.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2_folder.png) <br>
 
 Clicked into the file: users.txt and found the hidden password <br>
