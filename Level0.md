@@ -5,7 +5,6 @@ username: natas0 <br>
 password: natas0 <br>
 
 <br>
-This is very straight forward. <br>
 Hint is given in the website. Password is hidden in the website page. <br>
 Inspect the page and the password can be found in the HTML code of the website. <br>
 
