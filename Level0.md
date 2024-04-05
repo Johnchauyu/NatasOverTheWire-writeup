@@ -1,8 +1,9 @@
-### Natas Level 0
+## Natas Level 0
 
+[URL](http://natas0.natas.labs.overthewire.org) <br>
 username: natas0 <br>
 password: natas0 <br>
-[URL](http://natas0.natas.labs.overthewire.org) <br>
+
 <br>
 This is very straight forward. <br>
 Hint is given in the website. Password is hidden in the website page. <br>
