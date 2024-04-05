@@ -1,15 +1,15 @@
-[URL](http://natas2.natas.labs.overthewire.org)
-username: natas2
-password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7
+[URL](http://natas2.natas.labs.overthewire.org) <br>
+username: natas2 <br>
+password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7 <br>
 
-Although the hint stated that there is nothing on the website, I will still inspect the website since no further clue is stated.
-![[Level2.png]]
+Although the hint stated that there is nothing on the website, I will still inspect the website since no further clue is stated. <br>
+![Level2.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2.png) <br>
 
-Found a file path of an image in the HTML code
-![[Level2_path.png]]
+Found a file path of an image in the HTML code <br>
+![Level2_path.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2_path.png) <br>
 
-Found that I can access to that folder
-![[Level2_folder.png]]
+Found that I can access to that folder <br>
+![Level2_folder.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2_folder.png) <br>
 
-Clicked into the file: users.txt and found the hidden password
-![[Level2_usertxt.png]]
+Clicked into the file: users.txt and found the hidden password <br>
+![Level2_usertxt.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level2/Level2_usertxt.png) <br>
