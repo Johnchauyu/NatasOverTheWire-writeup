@@ -5,6 +5,6 @@
 ------
 
 This repository is created to record how I solve the overthewire wargame for my personal learning purpose. <br>
-Feel free to interchange any idea/ thought!
-<br>
+Feel free to interchange any idea/ thought! <br>
+
 No credential of the game will be published in the write-up according to the [rules]([url](https://overthewire.org/rules/)).
