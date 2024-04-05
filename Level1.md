@@ -9,9 +9,12 @@ When trying to right click in the white box, a window will pop out saying that "
 
 One easy solution is that you can right click outside the white box and you can inspect the website. <br>
 ![Level1_rc.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level1/Level1_rc.png) <br>
+
 Another solution is to use Linux command "curl -u" <br>
 ![curl.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level1/curl.png) <br>
+
 Password is obtained after curl result is returned <br>
 ![CurlResult.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level1/CurlResult.png) <br>
+
 Password can also be found by inspecting the page <br>
 ![Level1_InsepctResult.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level1/Level1_InsepctResult.png) <br>
