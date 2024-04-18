@@ -18,7 +18,7 @@ Right after I am brought to another page, the original page (http://natas4.natas
 The changes in the text make me suspect that it is detecting the [referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) in my HTTP request. And I verified my suspect in the network tab of the browser. <br>
 ![Level4_networktab.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level4/Level4_networktab.png) <br>
 
-The hidden password can be found by "curl" command with the modified referer header. <br>
+The hidden password can be found by `curl` command with the modified referer header. <br>
 ![Level4_curl.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level4/Level4_curl.png) <br>
 
 It can also be done by BurpSuite. <br>
