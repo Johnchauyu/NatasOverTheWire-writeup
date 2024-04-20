@@ -1,12 +1,13 @@
-[URL](http://natas6.natas.labs.overthewire.org)
-username: natas6
-password: fOIvE0MDtPTgRhqmmvvAOt2EfXR6uQgR
+## Natas Level 6
 
-There is one obvious input field once accessed the web page.
-![[Level6.png]]
+[URL](http://natas6.natas.labs.overthewire.org) <br>
+username: natas6 <br>
 
-After clicking that 'View sourcecode' button, the below code are shown.
-![[Level6_SourceCode.png]]
+There is one obvious input field once accessed the web page. <br>
+![Level6.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level6/Level6.png) <br>
+
+After clicking that 'View sourcecode' button, the below code are shown. <br>
+![Level6_SourceCode.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level6/Level6_SourceCode.png) <br>
 ```
 <html>
 <head>
@@ -46,7 +47,7 @@ Input secret: <input name=secret><br>
 </html>
 ```
 
-We only need to pay attention to this part of the code as it is responsible to handle our input.
+We only need to pay attention to this part of the code as it is responsible to handle our input. <br>
 ```
 <?
 
@@ -61,12 +62,12 @@ include "includes/secret.inc";
     }
 ?>
 ```
-In order to print out the password for the next level, the value of the variable: secret that we submitted through the HTTP POST request has to be same as the defined value of another variable: secret.
-And by inputting 'testing' in the field, it can be sure that the inputted value determines the value of variable: secret in the HTTP POST request.
-![[Level6_secret.png]]
+In order to print out the password for the next level, the value of the variable: secret that we submitted through the HTTP POST request has to be same as the defined value of another variable: secret. <br>
+And by inputting 'testing' in the field, it can be sure that the inputted value determines the value of variable: secret in the HTTP POST request. <br>
+![Level6_secret.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level6/Level6_secret.png) <br>
 
-Then I visited the link provided in `include "includes/secret.inc";`. Found that it is an empty page and the value of secret, `FOEIUWGHFEEUHOFUOIU`, is hidden in the HTML code.
-![[Level6_secretpage.png]]
+Then I visited the link provided in `include "includes/secret.inc";`. Found that it is an empty page and the value of secret, `FOEIUWGHFEEUHOFUOIU`, is hidden in the HTML code. <br>
+![Level6_secretpage.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level6/Level6_secretpage.png) <br>
 
-Input the found value of variable: secret into the input field and the password for next level is revealed.
-![[Level6_accessgranted.png]]
+Input the found value of variable: secret into the input field and the password for next level is revealed. <br>
+![Level6_accessgranted.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level6/Level6_accessgranted.png) <br>
