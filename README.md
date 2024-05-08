@@ -11,7 +11,7 @@ Feel free to share ideas, thoughts, and insights to foster discussion and knowle
 Please note that in adherence to the [rules](https://overthewire.org/rules/), no game credentials will be published in this write-up. <br>
 
 ## File Structure
-Here is the basic structure of the project: <br>
+Here is the basic structure of the write-up: <br>
 All the walkthrough are stored in an unique markdown file and the Screenshots folder hold all the screen capture during walkthrough. <br>
 
 ├── Screenshots/ <br>
