@@ -14,15 +14,15 @@ Please note that in adherence to the [rules](https://overthewire.org/rules/), no
 Here is the basic structure of the project: <br>
 All the walkthrough are stored in an unique markdown file and the Screenshots folder hold all the screen capture during walkthrough. <br>
 
-├── Screenshots/
-│ └── ...
-├── Level0.md/
-├── Level1.md/
-├── Level2.md/
-├── Level3.md/
-├── Level4.md/
-├── Level5.md/
-├── Level6.md/
-├── Level7.md/
-├── README.md
+├── Screenshots/ <br>
+│ └── ...        <br>
+├── Level0.md/   <br> 
+├── Level1.md/   <br>
+├── Level2.md/   <br>
+├── Level3.md/   <br>
+├── Level4.md/   <br>
+├── Level5.md/   <br>
+├── Level6.md/   <br>
+├── Level7.md/   <br>
+├── README.md    <br>
 
