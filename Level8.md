@@ -18,14 +18,16 @@ Only if the modified value equals the predefined variable "encodedSecret", the p
 The goal is to craft the value that turn out to have the same value of parameter "encodedSecret" after being passed to function "encodeSecret". <br>
 ```
 <?      
-
 $encodedSecret = "3d3d516343746d4d6d6c315669563362";      
 
-function encodeSecret($secret) {       return bin2hex(strrev(base64_encode($secret)));   
+function encodeSecret($secret){
+	return bin2hex(strrev(base64_encode($secret)));   
 }      
 
-if(array_key_exists("submit", $_POST)) {       if(encodeSecret($_POST['secret']) == $encodedSecret{
-		print "Access granted. The password for natas9 is <censored>";       } else {       
+if(array_key_exists("submit", $_POST)){
+	if(encodeSecret($_POST['secret']) == $encodedSecret{
+		print "Access granted. The password for natas9 is <censored>";
+	} else {       
 		print "Wrong secret";       
 	}   
 }   
@@ -53,4 +55,5 @@ echo $third_operatoin;
 
 By input the following result into the "Input secret" field, the key for next level is shown. <br>
 ![level8_decodeResult.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level8/level8_decodeResult.png) <br>
+<br>
 ![level8_success.png](https://github.com/Johnchauyu/NatasOverTheWire-writeup/blob/main/Screenshots/Level8/level8_success.png) <br>
