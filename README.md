@@ -12,7 +12,7 @@ Please note that in adherence to the [rules](https://overthewire.org/rules/), no
 
 ## File Structure
 Here is the basic structure of the write-up: <br>
-All the walkthrough are stored in an unique markdown file and the Screenshots folder hold all the screen capture during walkthrough. <br>
+All the walkthrough are stored in an unique markdown file and the Screenshots folder hold all the screen capture during walkthrough. You may view the walkthrough of a certain level in the corresponding Markdown file.  <br>
 
 ├── Screenshots/ <br>
 │ └── ...        <br>
